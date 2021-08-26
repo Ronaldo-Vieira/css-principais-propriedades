@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+/*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Besley', serif;
+*/
+header, section{
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    font-size: 2.5em;
+    color: orange;
+    font-family: 'Besley', serif;
+    text-transform: uppercase;
+}
+.sub_Titulos{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #ccc;
+    padding: 5px;
+    letter-spacing: 1.3em;
+}
+.xicara{
+    text-decoration: line-through;
+}
+li{
+    padding: 10px;
+    font-size: 1.2vw;
+}
